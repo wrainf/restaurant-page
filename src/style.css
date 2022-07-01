@@ -5,13 +5,29 @@ body{
 #content{
     height: 100vh;
     background-image: url(./bg.jpg);
-}
-
-#container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+#chef{
+    width: 300px;
+    border-radius: 300px;
+}
+
+#content-box{
+    background-color: rgba(255,255,255,0.6);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+
+p{
+    font-size: 20px;
+}
+
 
 h1{
     color: white;
