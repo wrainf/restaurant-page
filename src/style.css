@@ -20,9 +20,34 @@ body{
     padding: 50px;
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 532px;
     align-items: center;
 }
+
+.menu{
+    padding: 50px;
+    gap: 32px;
+    display: grid;
+    align-items: center;
+    background-color: rgba(255,255,255,0.6);
+    grid-template: 200px 200px 200px/200px 200px;
+}
+
+.card{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.card img{
+    width: 110px;
+}
+
 
 p{
     font-size: 20px;
