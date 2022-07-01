@@ -1,6 +1,21 @@
+@font-face {
+    font-family: SFPro;
+    src: url(./SFPro.ttf); 
+}
+
+@font-face {
+    font-family: Painter;
+    src: url(./Painter.ttf);
+}
+
+
 body{
     margin: 0px;
     padding: 0px;
+}
+
+*{
+    font-family: 'SFPro', 'sans-serif';
 }
 
 #container{
@@ -72,6 +87,8 @@ h1{
     font-size: 60px;
     margin: 0px;
     margin-bottom: 16px;
+    font-family: 'Painter','serif';
+    font-weight:100;
 }
 
 .tabs{
