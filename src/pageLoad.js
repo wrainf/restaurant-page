@@ -1,4 +1,4 @@
-import Icon from './bg.jpg';
+
 
 
 function pageLoad(){
