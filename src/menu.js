@@ -1,4 +1,4 @@
-import Icon from './macaroon.png';
+import Icon from './macaroon.jpg';
 
 function loadMenu(){
     let box = document.createElement('div');
