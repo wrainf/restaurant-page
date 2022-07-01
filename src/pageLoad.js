@@ -24,6 +24,7 @@ function pageLoad(){
     tabRow.appendChild(homeTab);
     tabRow.appendChild(menuTab);
     tabRow.appendChild(contactTab);
+    tabRow.setAttribute('class','tabs');
 
     container.appendChild(welcome);
     container.appendChild(tabRow);
