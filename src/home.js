@@ -11,11 +11,14 @@ function loadHome(){
 
     const chef = new Image();
     chef.src = Icon;
+    chef.setAttribute('id','chef')
 
     box.appendChild(p1);
     box.appendChild(p2);
     box.appendChild(chef);
     box.appendChild(p3);
+
+    box.setAttribute('id','content-box')
 
     return box;
 }
