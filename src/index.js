@@ -1,3 +1,7 @@
 import pageLoad from "./pageLoad";
+import loadHome from "./home";
+import './style.css';
 
-document.body.appendChild(pageLoad());
+const content = document.querySelector('#content');
+
+content.appendChild(pageLoad());
