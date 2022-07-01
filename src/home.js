@@ -18,7 +18,7 @@ function loadHome(){
     box.appendChild(chef);
     box.appendChild(p3);
 
-    box.setAttribute('id','content-box')
+    box.setAttribute('class','content-box')
 
     return box;
 }

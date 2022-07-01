@@ -5,7 +5,7 @@ function loadMenu(){
 
     
 
-    for(let i = 0; i < 6; i++){
+    for(let i = 0; i < 9; i++){
         let card = document.createElement('div');
         const macaroon = new Image();
         macaroon.src = Icon;
@@ -17,7 +17,7 @@ function loadMenu(){
         box.appendChild(card);
     }
     
-    box.setAttribute('class','menu');
+    box.setAttribute('class','menu content-box');
     return box;
 }
 

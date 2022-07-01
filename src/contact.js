@@ -20,7 +20,7 @@ function loadContact(){
     box.appendChild(p3);
     box.appendChild(map);
 
-    box.setAttribute('id','content-box')
+    box.setAttribute('class','content-box')
 
     return box;
 }
